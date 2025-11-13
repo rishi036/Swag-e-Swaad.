@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Swag-e-Swaad© - Authentic Indian Cuisine</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="icon" type="image/png" href="">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffaf3;
+    }
+
+    /* Updated gradient theme colors */
+    .bg-gradient-food {
+      background: linear-gradient(to right, #ff9f1c, #ffbf69, #fff3b0);
+    }
+
+    .bg-food-dark {
+      background: linear-gradient(to right, #ff9f1c, #ff7b00, #c05621);
+    }
+
+    .bg-food-light {
+      background: linear-gradient(to right, #fff8e1, #fff3b0);
+    }
+
+    .text-food {
+      color: #c05621;
+    }
+
+    .btn-food {
+      background: linear-gradient(to right, #ff7b00, #ffa41b);
+      color: white;
+    }
+
+    .btn-food:hover {
+      background: linear-gradient(to right, #ffa41b, #ff7b00);
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="sticky top-0 z-50 bg-gradient-to-r from-amber-600 via-orange-500 to-yellow-400 border-b border-orange-500 shadow">
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="Swag-e-Swaad.html" class="text-2xl md:text-3xl font-bold text-white px-3 py-2 rounded-md -ml-2">
+        Swag-e-Swaad
+      </a>
+
+      <div class="hidden md:flex items-center gap-1">
+        <a href="Swag-e-Swaad.html" class="px-4 py-2 rounded-md text-white font-medium bg-white/20">Home</a>
+        <a href="about.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">About</a>
+        <a href="chef.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Chef Info</a>
+        <a href="contact.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Contact Us</a>
+      </div>
+
+      <button class="inline-flex items-center justify-center rounded-md text-sm font-medium border border-white px-4 py-2 bg-white text-amber-700 hover:bg-amber-50 gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-4 w-4"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+        <a href="booking.html">Book a Table</a>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+<!-- HERO -->
+<section class="relative min-h-[60vh] flex items-center justify-center bg-cover bg-center" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url(Paneer.png);">
+  <div class="relative z-10 text-center px-4">
+    <h1 class="text-5xl md:text-7xl font-bold text-white mb-6">Swag-e-Swaad</h1>
+    <p class="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">Where Tradition Meets Taste - Authentic Cuisine</p>
+    <button class="btn-food rounded-md px-8 py-3 font-medium"><a href="menu.html" class="text-white text-decoration-none">Explore Our Menu</a></button>
+  </div>
+</section>
+
+<!-- FEATURE SECTION -->
+<section class="py-12 bg-food-light">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-8">
+      <h2 class="text-4xl md:text-5xl font-bold mb-3 text-food">Swaad Jo Dil Se</h2>
+      <p class="text-lg text-orange-700">Experience the auspicious flavors of India</p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="rounded-xl border bg-white text-center shadow-sm hover:shadow-lg transition">
+        <img src="chhole.jpg" class="w-full h-56 object-cover rounded-t-xl" alt="">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-food mb-2">Chhole Bhature</h3>
+          <p class="text-sm text-orange-700">Tasty and Spicy Chhole Bhature</p>
+        </div>
+      </div>
+
+      <div class="rounded-xl border bg-white text-center shadow-sm hover:shadow-lg transition">
+        <img src="biryani.jpg" class="w-full h-56 object-cover rounded-t-xl" alt="">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-food mb-2">Veg Biryani</h3>
+          <p class="text-sm text-orange-700">Basmati Rice layered with rich Indian spices</p>
+        </div>
+      </div>
+
+      <div class="rounded-xl border bg-white text-center shadow-sm hover:shadow-lg transition">
+        <img src="desserts.jpg" class="w-full h-56 object-cover rounded-t-xl" alt="">
+        <div class="p-6">
+          <h3 class="text-xl font-semibold text-food mb-2">Desserts</h3>
+          <p class="text-sm text-orange-700">Sweet treats to end your meal perfectly</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY CHOOSE US -->
+<section class="py-16 bg-[#fff7e6]">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4 text-food">Why Choose Us</h2>
+      <p class="text-orange-700 max-w-2xl mx-auto">Experience the perfect blend of authentic flavors and modern dining</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+      <div class="rounded-xl border bg-white p-6 text-center shadow hover:shadow-lg transition">
+        <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-yellow-100 text-orange-700 flex items-center justify-center">⭐</div>
+        <h3 class="font-semibold text-lg mb-2 text-food">Premium Quality</h3>
+        <p class="text-sm text-orange-700">Fresh ingredients and authentic spices</p>
+      </div>
+
+      <div class="rounded-xl border bg-white p-6 text-center shadow hover:shadow-lg transition">
+        <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-yellow-100 text-orange-700 flex items-center justify-center">👨‍🍳</div>
+        <h3 class="font-semibold text-lg mb-2 text-food">Expert Chefs</h3>
+        <p class="text-sm text-orange-700">Trained in traditional cooking methods</p>
+      </div>
+
+      <div class="rounded-xl border bg-white p-6 text-center shadow hover:shadow-lg transition">
+        <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-yellow-100 text-orange-700 flex items-center justify-center">🏅</div>
+        <h3 class="font-semibold text-lg mb-2 text-food">Award Winning</h3>
+        <p class="text-sm text-orange-700">Recognized for excellence in cuisine</p>
+      </div>
+
+      <div class="rounded-xl border bg-white p-6 text-center shadow hover:shadow-lg transition">
+        <div class="w-12 h-12 mx-auto mb-4 rounded-full bg-yellow-100 text-orange-700 flex items-center justify-center">❤️</div>
+        <h3 class="font-semibold text-lg mb-2 text-food">Made with Love</h3>
+        <p class="text-sm text-orange-700">Every dish prepared with passion</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="py-16 bg-food-dark text-white text-center">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-bold mb-4">Ready to Experience the Taste?</h2>
+    <p class="text-xl mb-8 text-white/90">Book your table now and embark on a culinary journey</p>
+    <button class="bg-white text-orange-700 px-8 py-3 rounded-md font-medium bg-yellow-50"><a href="booking.html" class="text-decoration-none text-orange-700">Book a Table</a></button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="bg-gradient-to-r from-orange-800 via-yellow-700 to-yellow-600 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-2xl mb-4">Swag-e-Swaad</h3>
+        <p class="text-white/90 text-sm mb-4">Experience authentic Indian cuisine crafted with passion and tradition.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li><a href="Swag-e-Swaad.html" class="hover:text-white">Home</a></li>
+          <li><a href="about.html" class="hover:text-white">About Us</a></li>
+          <li><a href="chef.html" class="hover:text-white">Our Chef</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Contact Info</h4>
+        <ul class="space-y-3 text-sm text-white/90">
+          <li>📍 B/H NRS Lab, Opp canteen, GU, Navrangpura</li>
+          <li>📞 +91 982599969</li>
+          <li>📧 swageswaad.com</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Opening Hours</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li>🕒 Mon - Thu: 11:00 AM - 10:00 PM</li>
+          <li>🕒 Fri - Sun: 11:00 AM - 11:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 pt-8 border-t border-white/20 text-center text-sm text-white/80">
+      © 2025 Swag-e-Swaad. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

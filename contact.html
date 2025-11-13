@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>Contact Us | Swag-e-Swaad - Authentic Indian Cuisine</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body { font-family: 'Poppins', sans-serif; }
+    .hover-glow:hover { box-shadow: 0 0 25px rgba(255, 193, 7, 0.6); transform: translateY(-3px); transition: 0.3s; }
+  </style>
+</head>
+<body class="text-white font-[Poppins] bg-gradient-to-br from-amber-50 via-orange-100 to-yellow-50">
+
+<!-- Navbar -->
+<nav class="sticky top-0 z-50 bg-gradient-to-r from-amber-600 via-orange-500 to-yellow-400 border-b border-orange-500 shadow">
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="Swag-e-Swaad.html" class="text-2xl md:text-3xl font-bold text-white px-3 py-2 rounded-md -ml-2">
+        Swag-e-Swaad
+      </a>
+
+      <div class="hidden md:flex items-center gap-1">
+        <a href="Swag-e-Swaad.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Home</a>
+        <a href="about.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">About</a>
+        <a href="chef.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Chef Info</a>
+        <a href="contact.html" class="px-4 py-2 rounded-md text-white font-medium bg-white/20">Contact Us</a>
+      </div>
+
+      <button class="inline-flex items-center justify-center rounded-md text-sm font-medium border border-white px-4 py-2 bg-white text-amber-700 hover:bg-amber-50 gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-4 w-4"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+        <a href="booking.html">Book a Table</a>
+      </button>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Header -->
+<section class="relative text-center py-24 bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-400 text-white overflow-hidden">
+  <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&w=1950&q=80')] bg-cover bg-center opacity-20"></div>
+  <div class="relative z-10">
+    <h1 class="text-5xl font-bold drop-shadow-lg mb-4 animate-pulse">Get in Touch</h1>
+    <p class="text-white/90 max-w-2xl mx-auto text-lg">We’d love to hear from you! Whether it’s feedback, reservations, or catering inquiries — we’re here for you.</p>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section class="max-w-7xl mx-auto px-6 py-20 grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+  <!-- Info -->
+  <div class="space-y-8">
+    <h2 class="text-4xl font-bold text-orange-600">Contact Information</h2>
+    <p class="text-gray-700 leading-relaxed">Feel free to reach out or send us a message directly. Our team will get back to you as soon as possible.</p>
+
+    <ul class="space-y-5 text-gray-800">
+      <li class="flex items-start gap-3"><span class="text-2xl">📍</span><div><h4 class="font-semibold text-lg">Restaurant Address</h4><p>B/H NRS Lab, Opp canteen, Gujarat University, Navrangpura</p></div></li>
+      <li class="flex items-start gap-3"><span class="text-2xl">📞</span><div><h4 class="font-semibold text-lg">Phone Number</h4><p>+91 98259 9969</p></div></li>
+      <li class="flex items-start gap-3"><span class="text-2xl">📧</span><div><h4 class="font-semibold text-lg">Email Us</h4><p>info@swageswaad.com</p></div></li>
+    </ul>
+
+    <div class="pt-6">
+      <h4 class="font-semibold text-lg mb-3 text-orange-600">Follow Us</h4>
+      <div class="flex gap-5 text-2xl text-gray-700">
+        <a href="#" class="hover:text-orange-500 transition">🌐</a>
+        <a href="#" class="hover:text-orange-500 transition">📸</a>
+        <a href="#" class="hover:text-orange-500 transition">📘</a>
+        <a href="#" class="hover:text-orange-500 transition">🐦</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Form -->
+  <div class="bg-gradient-to-br from-orange-100 via-amber-50 to-yellow-100 p-8 rounded-2xl shadow-2xl hover-glow backdrop-blur-md">
+    <h3 class="text-3xl font-semibold mb-8 text-center text-orange-700">Send Us a Message</h3>
+    <form>
+      <div class="mb-5">
+        <label class="block text-sm mb-1 text-gray-800 font-medium">Full Name</label>
+        <input type="text" class="w-full p-3 rounded-md bg-white border border-orange-200 text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-orange-400 focus:border-transparent" placeholder="Your Name" required>
+      </div>
+      <div class="mb-5">
+        <label class="block text-sm mb-1 text-gray-800 font-medium">Email Address</label>
+        <input type="email" class="w-full p-3 rounded-md bg-white border border-orange-200 text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-orange-400" placeholder="you@example.com" required>
+      </div>
+      <div class="mb-5">
+        <label class="block text-sm mb-1 text-gray-800 font-medium">Phone Number</label>
+        <input type="tel" class="w-full p-3 rounded-md bg-white border border-orange-200 text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-orange-400" placeholder="+91 99999 99999">
+      </div>
+      <div class="mb-5">
+        <label class="block text-sm mb-1 text-gray-800 font-medium">Message</label>
+        <textarea rows="4" class="w-full p-3 rounded-md bg-white border border-orange-200 text-gray-800 placeholder-gray-400 focus:ring-2 focus:ring-orange-400" placeholder="Write your message..."></textarea>
+      </div>
+      <button type="submit" class="w-full bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-500 text-white font-semibold py-3 rounded-md shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<!-- Map Section -->
+<section class="bg-gradient-to-r from-orange-600 via-amber-500 to-yellow-500 py-16">
+  <div class="max-w-7xl mx-auto px-6 text-center text-white">
+    <h2 class="text-4xl font-semibold mb-8 drop-shadow-md">Find Us on the Map</h2>
+    <div class="rounded-xl overflow-hidden shadow-2xl border border-white/30">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.124351833717!2d72.549273!3d23.041961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e84f0b1c38bbf%3A0xcaf4a1d9ff1b50b9!2sGujarat%20University!5e0!3m2!1sen!2sin!4v1705400000000!5m2!1sen!2sin"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-r from-orange-800 via-yellow-700 to-yellow-600 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-2xl mb-4">Swag-e-Swaad</h3>
+        <p class="text-white/90 text-sm mb-4">Experience authentic Indian cuisine crafted with passion and tradition.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li><a href="Swag-e-Swaad.html" class="hover:text-white">Home</a></li>
+          <li><a href="about.html" class="hover:text-white">About Us</a></li>
+          <li><a href="chef.html" class="hover:text-white">Our Chef</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Contact Info</h4>
+        <ul class="space-y-3 text-sm text-white/90">
+          <li>📍 B/H NRS Lab, Opp canteen, GU, Navrangpura</li>
+          <li>📞 +91 982599969</li>
+          <li>📧 swageswaad.com</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Opening Hours</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li>🕒 Mon - Thu: 11:00 AM - 10:00 PM</li>
+          <li>🕒 Fri - Sun: 11:00 AM - 11:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 pt-8 border-t border-white/20 text-center text-sm text-white/80">
+      © 2025 Swag-e-Swaad. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <title>About - Swag-e-Swaad</title>
+
+  <!-- Bootstrap & Tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fffaf3;
+      color: #4a2600;
+    }
+
+    .font-elegant {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .our-story-box {
+      background: #fffdf7;
+      border: 1px solid rgba(255, 193, 7, 0.3);
+      border-radius: 16px;
+      box-shadow: 0 4px 20px rgba(255, 193, 7, 0.2);
+      backdrop-filter: blur(4px);
+      padding: 1rem;
+      max-width: 800px;
+      margin: 2rem auto;
+    }
+
+    .story-img {
+      border-radius: 20px;
+      transition: all 0.4s ease;
+    }
+
+    .story-img:hover {
+      transform: scale(1.03);
+    }
+
+    .subtle-text {
+      color: #8b4513;
+      font-size: 0.95rem;
+    }
+
+    .divider {
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, #ff9f1c, #ffbf69);
+      margin: 1rem auto 2rem;
+    }
+
+    .founder-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid rgba(255, 193, 7, 0.3);
+      box-shadow: 0 4px 15px rgba(255, 193, 7, 0.2);
+      transition: transform 0.3s ease;
+    }
+
+    .founder-img:hover {
+      transform: scale(1.05);
+    }
+
+    .founder-name {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      color: #c05621;
+    }
+
+    .founder-role {
+      font-size: 0.9rem;
+      color: #a0522d;
+    }
+  </style>
+</head>
+
+<body class="min-h-screen">
+
+<!-- ✅ NAVBAR (same as home) -->
+<nav class="sticky top-0 z-50 bg-gradient-to-r from-amber-600 via-orange-500 to-yellow-400 border-b border-orange-500 shadow">
+  <div class="max-w-7xl px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="Swag-e-Swaad.html" class="text-2xl md:text-3xl font-bold text-white px-3 py-2 rounded-md -ml-2">
+        Swag-e-Swaad
+      </a>
+
+      <div class="hidden md:flex items-center gap-1">
+        <a href="Swag-e-Swaad.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Home</a>
+        <a href="about.html" class="px-4 py-2 rounded-md text-white font-medium bg-white/20">About</a>
+        <a href="chef.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Chef Info</a>
+        <a href="contact.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Contact Us</a>
+      </div>
+
+      <button class="inline-flex items-center justify-center rounded-md text-sm font-medium border border-white px-4 py-2 bg-white text-amber-700 hover:bg-amber-50 gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-4 w-4"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+        <a href="booking.html">Book a Table</a>
+      </button>
+    </div>
+  </div>
+</nav>
+<!-- FOUNDERS SECTION -->
+<section class="py-12 bg-food-light text-center">
+  <h2 class="font-elegant text-4xl mb-2 text-food">Our Founders</h2>
+  <div class="divider"></div>
+
+  <div class="flex flex-col md:flex-row justify-center items-center gap-8 mt-5">
+    <!-- Founder 1 -->
+    <div class="text-center">
+      <img src="rishi.jpg" class="founder-img mx-auto" alt="Rishi Gajra">
+      <p class="founder-name">Rishi Gajra</p>
+      <p class="founder-role">Co-Founder & CEO</p>
+    </div>
+
+    <!-- Founder 2 -->
+    <div class="text-center">
+      <img src="anshumaan.jpg" class="founder-img mx-auto" alt="Anshumaan Vaghela">
+      <p class="founder-name">Anshumaansinh Vaghela</p>
+      <p class="founder-role">Co-Founder & CEO</p>
+    </div>
+  </div>
+</section>
+
+<!-- OUR STORY SECTION -->
+<section class="text-center py-16 px-6 md:px-10 bg-[#f6e6c9]">
+  <div class="our-story-box text-center">
+    <h2 class="font-elegant text-4xl text-food mb-2">A Journey of Flavor</h2>
+    <div class="divider"></div>
+    <p class="subtle-text leading-relaxed">
+      Swag-e-Swaad was born from a simple love for authentic Indian flavors served with a modern twist.
+      Our journey began in the heart of Gujarat University, with one promise — to make every bite feel like home.
+      Each dish is crafted with premium ingredients, rich spices, and a touch of elegance that reflects our culture.
+    </p>
+  </div>
+
+  <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl">
+    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800" alt="Cafe Interior" class="story-img">
+    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800" alt="Indian Food" class="story-img">
+    <img src="https://images.unsplash.com/photo-1528605248644-14dd04022da1?w=800" alt="Kitchen Heart" class="story-img">
+  </div>
+</section>
+
+<!-- ✅ FOOTER (same as home) -->
+<footer class="bg-gradient-to-r from-orange-800 via-yellow-700 to-yellow-600 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-2xl mb-4">Swag-e-Swaad</h3>
+        <p class="text-white/90 text-sm mb-4">Experience authentic Indian cuisine crafted with passion and tradition.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li><a href="Swag-e-Swaad.html" class="hover:text-white">Home</a></li>
+          <li><a href="about.html" class="hover:text-white">About Us</a></li>
+          <li><a href="chef.html" class="hover:text-white">Our Chef</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Contact Info</h4>
+        <ul class="space-y-3 text-sm text-white/90">
+          <li>📍 B/H NRS Lab, Opp canteen, GU, Navrangpura</li>
+          <li>📞 +91 982599969</li>
+          <li>📧 swageswaad.com</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Opening Hours</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li>🕒 Mon - Thu: 11:00 AM - 10:00 PM</li>
+          <li>🕒 Fri - Sun: 11:00 AM - 11:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 pt-8 border-t border-white/20 text-center text-sm text-white/80">
+      © 2025 Swag-e-Swaad. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

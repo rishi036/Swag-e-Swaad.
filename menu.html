@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu - Swag-e-Swaad</title>
+
+  <!-- Bootstrap & Tailwind -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom right, #ffecd2, #fcb69f, #ff9a76);
+      color: #222;
+    }
+
+    .font-elegant {
+      font-family: 'Playfair Display', serif;
+    }
+
+    .menu-section {
+      background: rgba(255,255,255,0.8);
+      border-radius: 18px;
+      padding: 3rem 2rem;
+      margin: 2rem auto;
+      max-width: 1000px;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+      border: 1px solid rgba(255,255,255,0.4);
+    }
+
+    .menu-section h2 {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: #d97706;
+      font-weight: 600;
+      margin-bottom: 1.5rem;
+      border-bottom: 2px solid rgba(0,0,0,0.1);
+      padding-bottom: 0.5rem;
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      padding: 0.75rem 0;
+      border-bottom: 1px dashed rgba(0,0,0,0.1);
+    }
+
+    .menu-item:last-child {
+      border-bottom: none;
+    }
+
+    /* ✅ Veg Logo */
+    .veg-logo {
+      width: 14px;
+      height: 14px;
+      border: 2px solid #22c55e;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 8px;
+      border-radius: 2px;
+    }
+
+    .veg-logo::after {
+      content: "";
+      width: 6px;
+      height: 6px;
+      background: #22c55e;
+      border-radius: 50%;
+    }
+
+    .item-name {
+      font-weight: 500;
+      font-size: 1.05rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .item-description {
+      color: #444;
+      font-size: 0.9rem;
+      margin-top: 0.25rem;
+    }
+
+    .item-price {
+      font-weight: 600;
+      color: #b45309;
+    }
+
+    .divider {
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(to right, #f97316, #ea580c);
+      margin: 1rem auto 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ✅ NAVBAR -->
+<nav class="sticky top-0 z-50 bg-gradient-to-r from-orange-700 via-orange-500 to-yellow-500 border-b border-orange-500 shadow">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="Swag-e-Swaad.html" class="text-2xl md:text-3xl font-accent font-bold text-white cursor-pointer px-3 py-2 rounded-md">Swag-e-Swaad</a>
+      <div class="hidden md:flex items-center gap-1">
+        <a href="Swag-e-Swaad.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Home</a>
+        <a href="about.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">About</a>
+        <a href="chef.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Chef Info</a>
+        <a href="contact.html" class="px-4 py-2 rounded-md text-white font-medium hover:bg-white/20">Contact Us</a>
+      </div>
+
+      <button class="inline-flex items-center justify-center rounded-md text-sm font-medium border border-white/30 px-4 py-2 bg-white text-orange-700 hover:bg-orange-50 gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" class="h-4 w-4"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg>
+        <a href="booking.html">Book a Table</a>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<!-- 🌟 MENU SECTION -->
+<section class="text-center py-20 px-6 md:px-10">
+  <h1 class="font-elegant text-4xl text-orange-800 mb-2">Our Taste Board</h1>
+  <div class="divider"></div>
+  <p class="text-orange-900/80 max-w-2xl mx-auto mb-10">Taste the Swag and Swaad — where authentic Indian flavors meet modern flair.</p>
+
+  <!-- 🥗 Starters -->
+  <div class="menu-section">
+    <h2>Starters</h2>
+    <div class="menu-item">
+      <div>
+        <div class="item-name"><span class="veg-logo"></span>Paneer Tikka</div>
+        <div class="item-description">Grilled cottage cheese marinated in yogurt and Indian spices.</div>
+      </div><div class="item-price">₹220</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name"><span class="veg-logo"></span>Hara Bhara Kebab</div>
+        <div class="item-description">Spinach and green pea kebabs served with mint chutney.</div>
+      </div><div class="item-price">₹180</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name"><span class="veg-logo"></span>Veg Manchurian</div>
+        <div class="item-description">Crispy vegetable balls tossed in tangy Indo-Chinese sauce.</div>
+      </div><div class="item-price">₹200</div>
+    </div>
+    <div class="menu-item">
+      <div>
+        <div class="item-name"><span class="veg-logo"></span>Dahi Puri</div>
+        <div class="item-description">Crispy puris filled with spiced potatoes, yogurt, and chutneys.</div>
+      </div><div class="item-price">₹160</div>
+    </div>
+  </div>
+
+  <!-- 🍛 Main Course -->
+  <div class="menu-section">
+    <h2>Main Course</h2>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Veg Biryani</div><div class="item-description">Basmati rice cooked with fresh vegetables and saffron.</div></div><div class="item-price">₹280</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Chole Bhature</div><div class="item-description">Spicy chickpeas with puffed fried bread.</div></div><div class="item-price">₹200</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Paneer Butter Masala</div><div class="item-description">Paneer cubes simmered in creamy tomato gravy.</div></div><div class="item-price">₹260</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Dal Makhani</div><div class="item-description">Black lentils slow-cooked overnight with butter and cream.</div></div><div class="item-price">₹240</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Shahi Paneer</div><div class="item-description">Rich and creamy Mughlai-style paneer curry.</div></div><div class="item-price">₹270</div></div>
+  </div>
+
+  <!-- 🔥 Brick Oven -->
+  <div class="menu-section">
+    <h2>Brick Oven</h2>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Classic Cheese Naan</div><div class="item-description">Soft naan stuffed with cheese and baked in tandoor.</div></div><div class="item-price">₹140</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Masala Garlic Naan</div><div class="item-description">Garlic naan topped with coriander and butter.</div></div><div class="item-price">₹130</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Tandoori Roti</div><div class="item-description">Whole wheat roti baked in clay oven.</div></div><div class="item-price">₹40</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Stuffed Kulcha</div><div class="item-description">Naan stuffed with spiced potato and herbs.</div></div><div class="item-price">₹110</div></div>
+  </div>
+
+  <!-- 🍚 Sides -->
+  <div class="menu-section">
+    <h2>Sides</h2>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Jeera Rice</div><div class="item-description">Fragrant cumin-flavored rice.</div></div><div class="item-price">₹120</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Dal Tadka</div><div class="item-description">Yellow lentils tempered with ghee and garlic.</div></div><div class="item-price">₹180</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Raita Trio</div><div class="item-description">Mint, boondi, and pineapple raita for a refreshing touch.</div></div><div class="item-price">₹130</div></div>
+  </div>
+
+  <!-- 🍨 Desserts -->
+  <div class="menu-section">
+    <h2>Desserts</h2>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Gulab Jamun</div><div class="item-description">Soft fried dumplings soaked in rose syrup.</div></div><div class="item-price">₹120</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Rasmalai</div><div class="item-description">Cheese discs soaked in saffron milk.</div></div><div class="item-price">₹150</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Rose Pistachio Cheesecake</div><div class="item-description">A blend of Indian aroma and French finesse.</div></div><div class="item-price">₹220</div></div>
+    <div class="menu-item"><div><div class="item-name"><span class="veg-logo"></span>Kesar Pista Kulfi</div><div class="item-description">Traditional Indian ice cream infused with saffron and pistachio.</div></div><div class="item-price">₹130</div></div>
+  </div>
+</section>
+
+<!-- ✅ FOOTER -->
+<footer class="bg-gradient-to-r from-orange-800 via-yellow-700 to-yellow-600 text-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div>
+        <h3 class="font-bold text-2xl mb-4">Swag-e-Swaad</h3>
+        <p class="text-white/90 text-sm mb-4">Experience authentic Indian cuisine crafted with passion and tradition.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Quick Links</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li><a href="Swag-e-Swaad.html" class="hover:text-white">Home</a></li>
+          <li><a href="about.html" class="hover:text-white">About Us</a></li>
+          <li><a href="chef.html" class="hover:text-white">Our Chef</a></li>
+          <li><a href="contact.html" class="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Contact Info</h4>
+        <ul class="space-y-3 text-sm text-white/90">
+          <li>📍 B/H NRS Lab, Opp canteen, GU, Navrangpura</li>
+          <li>📞 +91 982599969</li>
+          <li>📧 swageswaad.com</li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="font-semibold text-lg mb-4">Opening Hours</h4>
+        <ul class="space-y-2 text-sm text-white/90">
+          <li>🕒 Mon - Thu: 11:00 AM - 10:00 PM</li>
+          <li>🕒 Fri - Sun: 11:00 AM - 11:00 PM</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 pt-8 border-t border-white/20 text-center text-sm text-white/80">
+      © 2025 Swag-e-Swaad. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
